@@ -1,0 +1,30 @@
+{
+  "name": "lannwebsitereborn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@chakra-ui/react": "^2.5.3",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@fastify/static": "^6.9.0",
+    "@types/react": "^18.0.29",
+    "@types/react-dom": "^18.0.11",
+    "@types/react-router-dom": "^5.3.3",
+    "fastify": "^4.15.0",
+    "framer-motion": "^10.9.1",
+    "node-ipc": "^11.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-router-dom": "^6.9.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.2"
+  }
+}
