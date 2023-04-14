@@ -24,6 +24,6 @@ fastify.register((instance, opts, next) => {
     next();
 });
 
-fastify.listen({ port: 2022 }).then(() => {
-    console.log('Listening on port 2022');
+fastify.listen({ port: 2023, host: '0.0.0.0' }).then(() => {
+    console.log('Listening on port', fastify.server.address().port);
 });

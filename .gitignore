@@ -1,3 +1,4 @@
 /node_modules/
 /build/backend/
 /build/frontend/bundle.js
+/.idea/
