@@ -1,29 +1,19 @@
-import Fastify from 'fastify';
-import fstatic from '@fastify/static';
-import * as path from 'path';
+import { injectable } from 'inversify';
+import { LoggerFactory } from './logger/logger';
+import { WebService } from './services/web';
+import { Kernel } from './kernel';
 
-const fastify = Fastify({
-    logger: true
-});
+@injectable()
+export class App {
+    private readonly logger = LoggerFactory.createLogger('App');
 
-fastify.register((instance, opts, next) => {
-    instance.register(fstatic, {
-        prefix: '/',
-        root: path.resolve('build/frontend')
-    });
+    private web: WebService;
+    public constructor() {
+        this.web = Kernel.getService(WebService);
+    }
 
-    next();
-});
-
-fastify.register((instance, opts, next) => {
-    instance.register(fstatic, {
-        prefix: '/cdn',
-        root: path.resolve('cdn')
-    });
-
-    next();
-});
-
-fastify.listen({ port: 2023, host: '0.0.0.0' }).then(() => {
-    console.log('Listening on port', fastify.server.address().port);
-});
+    public async start(): Promise<void> {
+        await this.web.start();
+        this.logger.info('Ready!');
+    }
+}

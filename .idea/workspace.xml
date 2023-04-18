@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="220fd5e4-06df-4ad5-a3c7-a14af992c829" name="Changes" comment="Initial Commit | Backend WIP">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bootstrap.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/kernel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/logger/logger.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/logger/loglevel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/logger/theme.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/services/web.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,13 +30,16 @@
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectId" id="2OO04qgWvz5vCnxBaQPEfYCtE38" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -36,13 +47,18 @@
     "WebServerToolWindowFactoryState": "false",
     "javascript.nodejs.core.library.configured.version": "19.8.1",
     "javascript.nodejs.core.library.typings.version": "18.15.11",
-    "last_opened_file_path": "D:/Development/WebstormProjects/lannwebsitereborn",
+    "last_opened_file_path": "D:/Development/WebstormProjects/lannwebsitereborn/backend",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "com.ioannuwu.inline.ui.MyConfigurable",
-    "ts.external.directory.path": "D:\\Programs\\Development\\WebStorm 2022.2.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+    "ts.external.directory.path": "D:\\Development\\WebstormProjects\\lannwebsitereborn\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Development\WebstormProjects\lannwebsitereborn\backend" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,6 +70,9 @@
       <workItem from="1681416137276" duration="1500000" />
       <workItem from="1681472195643" duration="1281000" />
       <workItem from="1681473634391" duration="174000" />
+      <workItem from="1681714845929" duration="1459000" />
+      <workItem from="1681804831944" duration="28000" />
+      <workItem from="1681804877049" duration="1777000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit | Backend WIP">
       <created>1681416562651</created>
@@ -80,6 +99,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
