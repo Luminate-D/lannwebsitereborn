@@ -1,3 +1,4 @@
+import 'source-map-support';
 const startupTime = process.hrtime.bigint();
 
 import 'source-map-support/register';

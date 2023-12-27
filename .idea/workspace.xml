@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="220fd5e4-06df-4ad5-a3c7-a14af992c829" name="Changes" comment="Initial Commit | Backend WIP">
-      <change afterPath="$PROJECT_DIR$/backend/bootstrap.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/kernel.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/logger/logger.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/logger/loglevel.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/logger/theme.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/services/web.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
+    <list default="true" id="220fd5e4-06df-4ad5-a3c7-a14af992c829" name="Changes" comment="vcxdgsdfg">
+      <change afterPath="$PROJECT_DIR$/cdn/images/ebat.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cdn/images/planets-nawpic-1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/bootstrap.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/bootstrap.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/header/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/main/contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/main/contacts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/main/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/main/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn-error.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +25,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -29,6 +38,10 @@
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2OO04qgWvz5vCnxBaQPEfYCtE38" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -37,26 +50,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "javascript.nodejs.core.library.configured.version": "19.8.1",
-    "javascript.nodejs.core.library.typings.version": "18.15.11",
-    "last_opened_file_path": "D:/Development/WebstormProjects/lannwebsitereborn/backend",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.ioannuwu.inline.ui.MyConfigurable",
-    "ts.external.directory.path": "D:\\Development\\WebstormProjects\\lannwebsitereborn\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;v3&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.5.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.5.0&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Development/WebstormProjects/lannwebsitereborn/backend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Development\\WebStorm\\lannwebsitereborn\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Development\WebstormProjects\lannwebsitereborn\backend" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Development\WebStorm\lannwebsitereborn\cdn\images" />
+      <recent name="D:\Development\WebStorm\lannwebsitereborn\cdn" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -73,6 +96,19 @@
       <workItem from="1681714845929" duration="1459000" />
       <workItem from="1681804831944" duration="28000" />
       <workItem from="1681804877049" duration="1777000" />
+      <workItem from="1703435482959" duration="902000" />
+      <workItem from="1703438331956" duration="2280000" />
+      <workItem from="1703508222360" duration="2956000" />
+      <workItem from="1703590977622" duration="181000" />
+      <workItem from="1703591170318" duration="200000" />
+      <workItem from="1703591380643" duration="47000" />
+      <workItem from="1703591436800" duration="80000" />
+      <workItem from="1703591524150" duration="225000" />
+      <workItem from="1703591756405" duration="186000" />
+      <workItem from="1703591949303" duration="86000" />
+      <workItem from="1703592061380" duration="23000" />
+      <workItem from="1703592093439" duration="968000" />
+      <workItem from="1703674030409" duration="3020000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit | Backend WIP">
       <created>1681416562651</created>
@@ -92,7 +128,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="v3" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -104,6 +152,7 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="Initial Commit | Backend WIP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit | Backend WIP" />
+    <MESSAGE value="vcxdgsdfg" />
+    <option name="LAST_COMMIT_MESSAGE" value="vcxdgsdfg" />
   </component>
 </project>
