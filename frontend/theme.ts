@@ -21,13 +21,13 @@ const components = {
 export const theme = extendTheme({
     config,
     components,
-    styles: {
-        global: {
-            html: {
-                overflowY: 'scroll',
-                scrollbarColor: '#212121 black',
-                scrollbarWidth: 'thin'
-            }
-        }
-    }
+    // styles: {
+    //     global: {
+    //         html: {
+    //             overflowY: 'scroll',
+    //             scrollbarColor: '#212121 black',
+    //             scrollbarWidth: 'thin'
+    //         }
+    //     }
+    // }
 });

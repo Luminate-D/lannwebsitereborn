@@ -1,8 +1,8 @@
 const path = require('path');
 
 module.exports = {
-    mode: 'development',
-    entry: './frontend/app.tsx',
+    mode: 'production',
+    entry: './frontend/App.tsx',
     module: {
         rules: [{
             test: /\.tsx?$/,
@@ -12,7 +12,7 @@ module.exports = {
     },
 
     resolve: {
-        extensions: ['.tsx', '.ts', '.js']
+        extensions: [ '.tsx', '.ts', '.js' ]
     },
 
     output: {

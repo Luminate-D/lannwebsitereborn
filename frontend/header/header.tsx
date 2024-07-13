@@ -4,7 +4,7 @@ import { useThemedToast } from '../hooks/toast';
 
 export function Header() {
     const toast = useThemedToast();
-    return <Flex position={'absolute'} align={'center'} zIndex={1} w={'100%'} h={'7.5vh'} px={3} bg={'#18181b7f'}>
+    return <Flex position={'absolute'} align={'center'} zIndex={1} w={'100%'} h={'7.5vh'} px={3} bg={'#18181b'}>
         <Button rounded={'sm'} onClick={() => {
             toast({
                 status: 'error',
