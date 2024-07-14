@@ -1,8 +1,8 @@
 import React from 'react';
-import { Flex, IconButton, Image, Link } from '@chakra-ui/react';
+import { Box, Flex, IconButton, Image, Link } from '@chakra-ui/react';
 
 export function Contacts() {
-    return <Flex position={'absolute'} h={'max-content'} right={'1em'} bottom={'1em'} gap={'0.5em'}>
+    return <Flex h={'max-content'} gap={'0.5em'} mt={'auto'} alignSelf={'flex-end'}>
         <Contact href={'https://pgp.mit.edu/pks/lookup?op=vindex&search=0x71D1E36680FD6D5E'} image={'https://cdn.lanny.dev/images/services/GPG.png'} />
         <Contact href={'https://etherscan.io/address/0x3Cdeb2De30dCb1890F199981F94fDc65f8752a85'} image={'https://cdn.lanny.dev/images/services/Ethereum.png'} />
         <Contact href={'https://t.me/lannts'} image={'https://cdn.lanny.dev/images/services/Telegram.png'} />

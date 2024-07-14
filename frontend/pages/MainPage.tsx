@@ -4,14 +4,16 @@ import { Contacts } from '../components/Сontacts';
 import { TechStack } from '../components/TechStack';
 
 export function MainPage() {
-    return <Flex direction={'column'} w={'100%'} h={'100%'} position={'relative'}>
-        <Flex direction={'column'} align={'center'} justify={'center'} h={'100%'}>
+    return <Flex direction={'column'} w={'100%'} flex={1} justify={'center'}
+            background={`url('https://cdn.lanny.dev/images/background.jpg') no-repeat center fixed`}
+            backgroundSize={'cover'}>
+        <Flex direction={'column'} align={'center'} justify={'center'} flex={1} p={3} pt={20} backdropFilter={'blur(5px) brightness(0.5)'}>
             <Text
                 bgGradient={'linear(to-r, purple.300, purple.400)'}
                 bgClip={'text'}
-                fontSize={'6xl'}
+                fontSize={'5xl'}
                 fontWeight={'bold'}>Luminate-D</Text>
-            <Text fontFamily={'Comfortaa'} fontSize={'xl'} textAlign={'center'}>
+            <Text fontFamily={'Comfortaa'} fontSize={'l'} textAlign={'center'}>
                 Hello! I am{" "}
                 <Text as={'span'}
                       color={'purple.300'}
@@ -19,14 +21,14 @@ export function MainPage() {
                       fontSize={'2xl'}
                       fontWeight={'extrabold'}>{calculateMyAge()}</Text>
                 {" "}years old, and i love programming & developing software
-                <Text fontSize={'xl'}>
+                <Text fontSize={'l'}>
                     I want to work as software engineer abroad
                 </Text>
             </Text>
-            <Text my={4} fontSize={'2xl'} fontWeight={'bold'}>My technology stack</Text>
+            <Text mb={-5} fontSize={'2xl'} fontWeight={'bold'}>My technology stack</Text>
             <TechStack />
+            <Contacts />
         </Flex>
-        <Contacts />
     </Flex>
 }
 

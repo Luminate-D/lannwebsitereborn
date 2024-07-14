@@ -2,7 +2,7 @@ import React, { PropsWithChildren } from 'react';
 import { Flex, Text } from '@chakra-ui/react';
 
 export function TechStack() {
-    return <Flex py={5} px={10} bgColor={'#0006'} gap={'2em'}>
+    return <Flex mx={10} my={10} px={10} py={5} bgColor={'#0006'} gap={'2em'} wrap={'wrap'} w={'auto'} justify={'center'}>
         <TechStackItem name={'Web & Frontend'}>
             <Text fontSize={'l'}>– React, Redux (+ Toolkit)</Text>
             <Text fontSize={'l'}>– TypeScript</Text>
@@ -30,9 +30,9 @@ export function TechStack() {
 }
 
 function TechStackItem(props: PropsWithChildren & { name: string }) {
-    return <Flex direction={'column'}>
-        <Text fontWeight={'extrabold'} color={'blue.400'} fontSize={'3xl'}>{props.name}</Text>
-        <Flex direction={'column'} fontFamily={'Roboto'}>
+    return <Flex direction={'column'} align={'center'} w={'100%'} px={5} flex={'1'}>
+        <Text fontWeight={'extrabold'} color={'blue.400'} fontSize={'3xl'} whiteSpace={'nowrap'}>{props.name}</Text>
+        <Flex direction={'column'} fontFamily={'Roboto'} w={'100%'}>
             {props.children}
         </Flex>
     </Flex>
