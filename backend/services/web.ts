@@ -26,15 +26,6 @@ export class WebService {
             next();
         });
 
-        this.fastify.register((instance, opts, next) => {
-            instance.register(fstatic, {
-                prefix: '/cdn',
-                root: path.resolve(__dirname, '../../../cdn')
-            });
-
-            next();
-        });
-
         this.fastify.setNotFoundHandler((req, res) => {
             res.sendFile('index.html', path.resolve(__dirname, '../../frontend'));
         });
