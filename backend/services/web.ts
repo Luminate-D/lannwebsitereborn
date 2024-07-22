@@ -13,6 +13,7 @@ export class WebService {
     public constructor() {
         this.fastify = Fastify();
         this.initMiddleware();
+        console.log(path.resolve(__dirname, '../../frontend/index.html'))
     }
 
     private initMiddleware() {
@@ -32,6 +33,10 @@ export class WebService {
             });
 
             next();
+        });
+
+        this.fastify.setNotFoundHandler((req, res) => {
+            res.sendFile('index.html', path.resolve(__dirname, '../../frontend'));
         });
     }
 

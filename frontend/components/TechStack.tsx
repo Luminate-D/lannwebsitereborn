@@ -1,5 +1,6 @@
 import React, { PropsWithChildren } from 'react';
 import { Flex, Text } from '@chakra-ui/react';
+import HCaptcha from '@hcaptcha/react-hcaptcha';
 
 export function TechStack() {
     return <Flex mx={10} my={10} px={10} py={5} bgColor={'#0006'} gap={'2em'} wrap={'wrap'} w={'auto'} justify={'center'}>
@@ -26,7 +27,12 @@ export function TechStack() {
             <Text fontSize={'l'}>– Nginx</Text>
             <Text fontSize={'l'}>– Github / Git SCM</Text>
         </TechStackItem>
+        {/*<HCaptcha sitekey={'389c9214-af3a-452c-8504-dc58676c3b7a'} onVerify={captchaVerify} />*/}
     </Flex>
+}
+
+function captchaVerify(token: string) {
+    console.log("VERIFIED CAPTCHA:", token);
 }
 
 function TechStackItem(props: PropsWithChildren & { name: string }) {

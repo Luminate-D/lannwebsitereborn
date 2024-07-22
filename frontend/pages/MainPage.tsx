@@ -1,13 +1,20 @@
 import React from 'react';
-import { Flex, Text } from '@chakra-ui/react';
+import { Box, Flex, Text } from '@chakra-ui/react';
 import { Contacts } from '../components/Сontacts';
 import { TechStack } from '../components/TechStack';
 
 export function MainPage() {
-    return <Flex direction={'column'} w={'100%'} flex={1} justify={'center'}
-            background={`url('https://cdn.lanny.dev/images/background.jpg') no-repeat center fixed`}
-            backgroundSize={'cover'}>
-        <Flex direction={'column'} align={'center'} justify={'center'} flex={1} p={3} pt={20} backdropFilter={'blur(5px) brightness(0.5)'}>
+    return <Flex direction={'column'} w={'100%'} flex={1} justify={'center'}>
+        <Box position={'fixed'} top={0} left={0} w={'100%'} h={'100%'} zIndex={-1}>
+            <Box
+                as={'video'}
+                src='https://cdn.lanny.dev/images/background.mp4'
+                loop muted width={'100%'} height={'100%'}
+                top={0} left={0} objectFit={'cover'}
+                autoPlay
+            />
+        </Box>
+        <Flex direction={'column'} align={'center'} justify={'center'} flex={1} p={3} pt={20} backdropFilter={'brightness(0.5)'}>
             <Text
                 bgGradient={'linear(to-r, purple.300, purple.400)'}
                 bgClip={'text'}
