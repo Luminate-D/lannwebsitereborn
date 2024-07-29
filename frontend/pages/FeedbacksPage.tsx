@@ -11,6 +11,11 @@ export function FeedbacksPage() {
             <Feedback />
             <Feedback />
             <Feedback />
+            <Feedback />
+            <Feedback />
+            <Feedback />
+            <Feedback />
+            <Feedback />
         </Flex>
     </Flex>
 }
