@@ -4,29 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="220fd5e4-06df-4ad5-a3c7-a14af992c829" name="Changes" comment="v2.5">
-      <change afterPath="$PROJECT_DIR$/backend/orm/datasource.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/orm/entities/scam.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/services/scam.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/header/UserInfo.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/pages/AnimePage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/pages/Authorizer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/pages/JokergePage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/state/slices/auth.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/state/store.ts" afterDir="false" />
+    <list default="true" id="220fd5e4-06df-4ad5-a3c7-a14af992c829" name="Changes" comment="v2.6">
+      <change afterPath="$PROJECT_DIR$/frontend/pages/TimersPage.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/sqlite.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/constants.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/kernel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/kernel.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/services/web.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/services/web.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/frontend/bundle.js.LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/frontend/bundle.js.LICENSE.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/header/header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/FeedbacksPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/FeedbacksPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/MoonlightPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/MoonlightPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +119,9 @@
       <workItem from="1721673027890" duration="2034000" />
       <workItem from="1721888002705" duration="10000" />
       <workItem from="1722003653611" duration="1087000" />
-      <workItem from="1722260997591" duration="7483000" />
+      <workItem from="1722260997591" duration="8257000" />
+      <workItem from="1722347935648" duration="4000" />
+      <workItem from="1722350022263" duration="5953000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit | Backend WIP">
       <created>1681416562651</created>
@@ -168,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721642263315</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="v2.6">
+      <option name="closed" value="true" />
+      <created>1722268551805</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722268551805</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +191,7 @@
     <MESSAGE value="v2" />
     <MESSAGE value="v2.1: mobile version" />
     <MESSAGE value="v2.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="v2.5" />
+    <MESSAGE value="v2.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="v2.6" />
   </component>
 </project>

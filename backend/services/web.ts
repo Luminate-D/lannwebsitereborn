@@ -9,6 +9,7 @@ import path from 'path';
 // import DiscordOauth2 from 'discord-oauth2';
 import { Kernel } from '../kernel';
 import { ScamCounter } from './scam';
+import { DateTime } from 'luxon';
 // const oauth = new DiscordOauth2({
 //     clientId: Constants.CLIENT_ID,
 //     clientSecret: Constants.CLIENT_SECRET,
@@ -56,10 +57,27 @@ export class WebService {
         //     res.status(200).send(result);
         // });
 
+        this.fastify.get('/api/dates', (req, res) => {
+            res.status(200).send([
+                { name: 'University', color: 'purple.500',
+                    start: DateTime.fromISO('2024-09-01T21:00:00.000Z'),
+                    end: DateTime.fromISO('2028-07-01T21:00:00.000Z') },
+                { name: 'University Enroll Campaign', color: 'yellow.500',
+                    start: DateTime.fromISO('2024-07-18T21:00:00.000Z'),
+                    end: DateTime.fromISO('2024-07-31T15:00:00.000Z') },
+                { name: 'School', color: 'purple.500',
+                    start: DateTime.fromISO('2013-08-31T21:00:00.000Z'),
+                    end: DateTime.fromISO('2024-06-26T21:00:00.000Z') },
+                { name: 'Birth', color: 'purple.500',
+                    start: DateTime.fromISO('2007-02-08T22:00:00.000Z'),
+                    end: DateTime.fromISO('2007-02-08T22:00:00.001Z') },
+            ]);
+        });
+
         const scam = Kernel.getService<ScamCounter>(ScamCounter);
         this.fastify.post('/kekw', async (req, res) => {
             res.status(200).send({
-                count: await scam.scam(req.ip, 'moonlight'),
+                count: await scam.scam((req.headers['x-forwarded-for']! as string || '127.0.0.1').split(',')[0], 'moonlight'),
                 total: await scam.total('moonlight')
             });
         });

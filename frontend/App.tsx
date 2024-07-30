@@ -12,6 +12,7 @@ import { Provider } from 'react-redux';
 import { store } from './state/store';
 import { AnimePage } from './pages/AnimePage';
 import { JokergePage } from './pages/JokergePage';
+import { TimersPage } from './pages/TimersPage';
 
 const root = createRoot(document.getElementById('root')!);
 
@@ -22,6 +23,8 @@ function App() {
             <Route path={'/'} element={<MainPage />} />
             <Route path={'/kekw'} element={<MoonlightPage />} />
             <Route path={'/jokerge'} element={<JokergePage />} />
+            <Route path={'/timers'} element={<TimersPage />} />
+
             {/*<Route path={'/anime'} element={<AnimePage />} />*/}
             {/*<Route path={'/feedbacks'} element={<FeedbacksPage />} />*/}
 
