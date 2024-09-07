@@ -12,6 +12,7 @@ export function TechStack() {
         </TechStackItem>
         <TechStackItem name={'Backend'}>
             <Text fontSize={'l'}>– NodeJS (WebSockets, TS)</Text>
+            <Text fontSize={'l'}>– Kotlin + Koin + Ktor</Text>
             <Text fontSize={'l'}>– Java + Netty</Text>
             <Text fontSize={'l'}>– C# (.NET)</Text>
             <Text fontSize={'l'}>– Fastify</Text>
@@ -38,7 +39,7 @@ function captchaVerify(token: string) {
 function TechStackItem(props: PropsWithChildren & { name: string }) {
     return <Flex direction={'column'} align={'center'} w={'100%'} px={5} flex={'1'}>
         <Text fontWeight={'extrabold'} color={'blue.400'} fontSize={'3xl'} whiteSpace={'nowrap'}>{props.name}</Text>
-        <Flex direction={'column'} fontFamily={'Roboto'} w={'100%'}>
+        <Flex direction={'column'} fontFamily={'Roboto'} w={'max-content'}>
             {props.children}
         </Flex>
     </Flex>
