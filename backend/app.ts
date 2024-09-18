@@ -19,7 +19,5 @@ export class App {
         await Kernel.getService<ScamCounter>(ScamCounter).init();
 
         await this.web.start();
-
-        this.logger.info('Ready!');
     }
 }
