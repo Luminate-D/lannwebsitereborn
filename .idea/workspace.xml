@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="220fd5e4-06df-4ad5-a3c7-a14af992c829" name="Changes" comment="v2.6">
-      <change afterPath="$PROJECT_DIR$/frontend/pages/TimersPage.tsx" afterDir="false" />
+    <list default="true" id="220fd5e4-06df-4ad5-a3c7-a14af992c829" name="Changes" comment="v2.8.1">
+      <change afterPath="$PROJECT_DIR$/cdn/burst.mp4" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/sqlite.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/services/web.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/services/web.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/MainPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/MainPage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +75,7 @@
       <recent name="D:\Development\WebstormProjects\lannwebsitereborn\backend" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="A:\Development\web\lannwebsitereborn\cdn" />
       <recent name="A:\Development\web\lannwebsitereborn\frontend\components" />
       <recent name="A:\Development\web\lannwebsitereborn\frontend" />
       <recent name="A:\Development\web\lannwebsitereborn\frontend\pages" />
@@ -121,7 +120,14 @@
       <workItem from="1722003653611" duration="1087000" />
       <workItem from="1722260997591" duration="8257000" />
       <workItem from="1722347935648" duration="4000" />
-      <workItem from="1722350022263" duration="5953000" />
+      <workItem from="1722350022263" duration="6353000" />
+      <workItem from="1723718776789" duration="784000" />
+      <workItem from="1725727627974" duration="990000" />
+      <workItem from="1726079512415" duration="2000" />
+      <workItem from="1726216384746" duration="19000" />
+      <workItem from="1726234758021" duration="1417000" />
+      <workItem from="1726644761085" duration="637000" />
+      <workItem from="1726738830516" duration="742000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit | Backend WIP">
       <created>1681416562651</created>
@@ -162,7 +168,31 @@
       <option name="project" value="LOCAL" />
       <updated>1722268551805</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="v2.7">
+      <option name="closed" value="true" />
+      <created>1722356027417</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722356027417</updated>
+    </task>
+    <task id="LOCAL-00007" summary="v2.8">
+      <option name="closed" value="true" />
+      <created>1725728239641</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725728239641</updated>
+    </task>
+    <task id="LOCAL-00008" summary="v2.8.1">
+      <option name="closed" value="true" />
+      <created>1726645065587</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1726645065587</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +222,9 @@
     <MESSAGE value="v2.1: mobile version" />
     <MESSAGE value="v2.5" />
     <MESSAGE value="v2.6" />
-    <option name="LAST_COMMIT_MESSAGE" value="v2.6" />
+    <MESSAGE value="v2.7" />
+    <MESSAGE value="v2.8" />
+    <MESSAGE value="v2.8.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="v2.8.1" />
   </component>
 </project>

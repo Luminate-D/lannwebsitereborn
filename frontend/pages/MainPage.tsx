@@ -34,10 +34,16 @@ export function MainPage() {
             </Text>
             <Text mb={-5} fontSize={'2xl'} fontWeight={'bold'}>My technology stack</Text>
             <TechStack />
-            <Text fontSize={'xl'} fontFamily={'Comfortaa'} color={'purple.400'}>Tolerance is not generally a hallmark of intelligent beings (Homo Sapiens)</Text>
-            <Contacts />
+            <Text fontSize={'xl'} fontFamily={'Comfortaa'} color={'white'}>
+                Tolerance is not generally a hallmark of <SubText text={'intelligent beings'} subtext={'Homo-Sapiens'} />
+            </Text>
+            <Contacts/>
         </Flex>
     </Flex>
+}
+
+function SubText(props: { text: string, subtext: string }) {
+    return <ruby style={{ whiteSpace: 'nowrap' }}>{props.text}<rp>(</rp><rt>{props.subtext}</rt><rp>)</rp></ruby>
 }
 
 export function calculateMyAge() {
