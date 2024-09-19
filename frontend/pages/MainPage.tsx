@@ -34,7 +34,7 @@ export function MainPage() {
             </Text>
             <Text mb={-5} fontSize={'2xl'} fontWeight={'bold'}>My technology stack</Text>
             <TechStack />
-            <Text fontSize={'xl'} fontFamily={'Comfortaa'} color={'white'}>
+            <Text fontSize={'xl'} mt={'auto'} fontFamily={'Comfortaa'} color={'white'}>
                 Tolerance is not generally a hallmark of <SubText text={'intelligent beings'} subtext={'Homo-Sapiens'} />
             </Text>
             <Contacts/>
